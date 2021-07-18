@@ -89,6 +89,13 @@ Contoh Pemdas
 
 Nan adalah nilai numeric/angka untuk menunjukan sesuatu yang tidak angka.
 
+```bash
+let point = 20
+typeof point
+
+>> "number"
+```
+
 Contoh NAN:
 ```bash
 200 + 0/0
