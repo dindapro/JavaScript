@@ -1,4 +1,4 @@
-const day = 4;
+const day = 2;
 switch (day) {
     case 1:
         console.log("MONDAY");
