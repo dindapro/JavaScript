@@ -110,3 +110,74 @@ function isEven(num){
 ```
 
 ## Else-if
+
+
+## Else
+
+
+## Exercise 
+```bash
+function getColor(phrase){
+    //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
+    if (phrase === 'stop') {
+        console.log("red")
+    } else if (phrase === 'slow') {
+        console.log("yellow")
+    } else if (phrase === 'go') {
+        console.log("green")
+    } else {
+        console.log("purple")
+    }
+   
+   
+    //AND THIS LINE ↑↑↑↑↑
+}
+```
+
+## 168. Nesting Conditionals
+
+## Coding Exercise 32
+```bash
+// Change the value of num, so that "YOU GOT ME!" prints out
+const num = 102// THIS IS THE ONLY LINE YOU SHOULD CHANGE :) 
+
+
+
+
+// DO NOT TOUCH ANYTHING BELOW (please) 
+if(num <= 100) {
+    if(num >= 50) {
+        console.log("HEY!");
+    }
+} else {
+    if (num < 103) {
+        if(num % 2 === 0){
+            console.log("YOU GOT ME!");
+        }
+    }
+}
+```
+
+## 169. Truth-y & False-y Values
+* All JS values havfe an inherent truthyness or falsyness about them
+* Falsy value:
+  * false
+  * 0
+  * ""
+  * null
+  * undefined
+  * NaN
+* Everything else is truthy!
+
+## 170. Logical AND
+
+Operator       | Result
+---------------|---------
+true && true   | true
+false && true  | false
+true && false  | false
+false && false | false
+
+1 === 1 && 2 < 7
+
+true
