@@ -1,5 +1,5 @@
 // =====================
-// BASIC IF/ELSE
+// 165.BASIC IF/ELSE
 // =====================
 let random = Math.random();
 if (random < 0.5) {
@@ -10,7 +10,7 @@ if (random < 0.5) {
 console.log(random);
 
 // =====================
-// PROMPT EXAMPLE
+// 166.PROMPT EXAMPLE
 // =====================
 
 const dayOfWeek = prompt('ENTER A DAY').toLowerCase();
@@ -28,7 +28,7 @@ if (dayOfWeek === 'monday') {
 
 
 // =====================
-// TICKET PRICE EXAMPLE
+// 167.TICKET PRICE EXAMPLE
 // =====================
 
 // 0-5 - FREE
@@ -50,7 +50,7 @@ if (age < 5) {
 
 
 // =====================
-// NESTING CONDITIONALS
+// 168.NESTING CONDITIONALS
 // =====================
 
 const password = prompt("please enter a new password");

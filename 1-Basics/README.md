@@ -3,7 +3,7 @@
 
 Mempelajari value dan variable
 
-## Primitive Types
+## 142.Primitive Types
 
 Dasar building block
 * Number
@@ -18,7 +18,7 @@ Menjalankan code pada console browser REPL
 * Print
 * Loop
 
-## Number 
+## 143.Number 
 
 Pada JavaScript mempunyai deskripsi sebagai berikut:
 * Hanya terdapat satu type number
@@ -108,7 +108,7 @@ Contoh NAN:
 NaN
 ```
 
-## Variable 
+## 146.Variable 
 
 Variable seperti label untuk nilai 
 * Menyimpan nilai dengan variable
@@ -176,18 +176,18 @@ piring
 >> 4
 ```
 
-## Contant
+## 148.Constant
 Constant berfungsi seperti let. tetapi tidak dapat merubah nilai variable
 
 ```bash
-const tet = 1000;
+const let = 1000;
 ```
 
 VAR 
 
 Var adalah keyword untuk deklarasi variable cara sebelumnya 
 
-## Boolean 
+## 149.Boolean 
 
 variable yang berisikan True dan False.
 

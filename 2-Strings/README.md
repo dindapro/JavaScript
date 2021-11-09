@@ -190,7 +190,7 @@ Dapat di Kombinasikan dengan method string
 >> "halo SEPEDA"
 ```
 
-## NULL and Undefined
+## 157.NULL and Undefined
 
 Null 
 * must be assigned
@@ -229,7 +229,7 @@ check math function pada console
 Math //enter
 ```
 
-### Random Numbers
+### 158.Random Numbers
 generate random decimal antara 0 - 1 
 ```bash
 Math.random() 

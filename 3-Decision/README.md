@@ -1,6 +1,7 @@
 # JavaScript Decision String
 
-
+## 159. What Matters
+What Matters :
 
 Crucial 
 * Comparison Operators
@@ -81,7 +82,7 @@ parseInt("101asd")
 ```
 
 ## 164. Running JavaScript From A Script!
-Running Code From File
+Review: 164-Running-Js-Script
 * Write your code in a .js file 
 * Include your script in a .html file
 * Best practice put at the very end of our body
