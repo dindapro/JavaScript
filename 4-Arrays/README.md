@@ -9,11 +9,34 @@ Ordered collections of values.
 * Collection of levels in a game
 * Songs in a playlist
 
+```bash
+// to make an empty array
+let students = [];
+
+// An array of strings
+let colors = ['red', 'orange', 'yellow'];
+
+// An array of numbers
+let lotofNums = [1,2,3,4,5,6];
+
+// A mixed array
+let stuff = [true, 8, 'cat', null];
+```
+
+## Exercise 25
+Lotto Numbers Exercise
+
+Let's get some practice creating arrays. Please define a variable called lottoNumbers and set it equal to an array containing any 6 numbers.  It's simple, but we've got to start somewhere!
+
+```bash
+// Define lottoNumbers below:
+let lottoNumbers=[19,22,11,23,33,11]
+```
 
 ## 176-Array Random Access
-Each element is assigned an index
+Array are indexed
 
-Ccannot update with string
+String has indexed
 ```bash
 let firstName = "teguh";
 
@@ -37,7 +60,7 @@ undefined
 warna[0];
 "rad"
 
-# update index
+# Try to update index of array
 warna[0] = 'red';
 "red"
 
@@ -45,6 +68,21 @@ warna[0];
 "red"
 
 ```
+Check if you cannot update index in string 
+
+Check if you can update index in array from number to string or to null
+
+check if you can add new array with assign value [new num-0f-index]
+
+```bash
+let beatles = ['paul', 'john', 'george']
+beatles[3] = 'ringo';
+beatles
+//result
+['paul', 'john', 'george', 'ringo']
+```
+please notice annoying we must know the index to be added
+
 
 ## Coding Exercise 26
 ```bash
@@ -72,10 +110,34 @@ Array Methods
 * Shift - Remove from start
 * Unshift - add to start
 
-Review method from string 
-```javascript
-
+Review string method with
+```bash
+'LOL'.length
 ```
+review other method from mdn
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+```javascript
+let movieLine = ['tom', 'nancy']
+//adding new data but we must know the index
+movieLine[2] = 'pablo'
+//adding new data with push
+movieLine.push('oliver')
+```
+Review if we add method to string it is not updated 
+
+for example 
+```javascript
+let cat = "blue" ;
+cat.toUpperCase()
+
+// check cat again
+cat 
+// result
+blue
+```
+
+review add multi index in push method
 
 ## 178-Shift & Unshift
 
