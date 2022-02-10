@@ -138,6 +138,12 @@ blue
 ```
 
 review add multi index in push method
+```javascript
+movieLine.push('oliver', 'mamang')
+```
+
+review pop command 
+
 
 ## 178-Shift & Unshift
 
